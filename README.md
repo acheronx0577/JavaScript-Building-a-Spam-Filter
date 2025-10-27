@@ -22,7 +22,7 @@ This repository contains the complete portfolio of projects needed to demonstrat
 
 <img width="715" height="809" alt="Screenshot 2025-10-27 141740" src="https://github.com/user-attachments/assets/97262308-2771-4254-84b6-a63ad5c42ce5" />
 
-Live Demo: https://your-username.github.io/Spam-Detector
+Live Demo: https://acheronx0577.github.io/JavaScript-Building-a-Spam-Filter
 
 ---
 
