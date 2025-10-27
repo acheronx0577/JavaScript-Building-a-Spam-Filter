@@ -11,7 +11,7 @@ Welcome to **Spam Detector** — an intelligent web application that identifies 
 **Complete Your Certificate:**
 - ✅ This project (Spam Detector) fulfills one requirement
 
-**Full Project Suite:** [25+ hands-on projects from Pyramid Generator to Final Certification Projects](https://github.com/your-username/JavaScript-Algorithms-and-Data-Structures)
+**Full Project Suite:** [25+ hands-on projects from Pyramid Generator to Final Certification Projects](https://github.com/acheronx0577/JavaScript-Algorithms-and-Data-Structures)
 - 🎓 Complete all projects to earn your certification
 
 This repository contains the complete portfolio of projects needed to demonstrate JavaScript proficiency and earn the freeCodeCamp certificate.
@@ -20,7 +20,7 @@ This repository contains the complete portfolio of projects needed to demonstrat
 
 ## 📸 Application Preview
 
-![Spam Detector Interface](https://via.placeholder.com/1065x600/1b1b32/ffffff?text=Spam+Detector+Compact+UI)
+<img width="715" height="809" alt="Screenshot 2025-10-27 141740" src="https://github.com/user-attachments/assets/97262308-2771-4254-84b6-a63ad5c42ce5" />
 
 Live Demo: https://your-username.github.io/Spam-Detector
 
@@ -71,12 +71,12 @@ Live Demo: https://your-username.github.io/Spam-Detector
 
 ### 1️⃣ Clone this repo
 ```
-git clone git@github.com:acheronx0577/JavaScript-Build-a-Roman-Numeral-Converter-Project.git
+git clone git@github.com:acheronx0577/JavaScript-Building-a-Spam-Filter.git
 ```
 
 ### 2️⃣ Open the project folder
 ```
-cd JavaScript-Build-a-Roman-Numeral-Converter-Project
+cd JavaScript-Building-a-Spam-Filter
 ```
 
 ### 3️⃣ Run the file
