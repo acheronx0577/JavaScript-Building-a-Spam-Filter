@@ -26,36 +26,20 @@ Live Demo: https://acheronx0577.github.io/JavaScript-Building-a-Spam-Filter
 
 ---
 
-## ✅ Features
+## 🎮 How to Use
 
-1. **🔍 Advanced Pattern Detection**
-   - Money amount patterns (e.g., "100 dollars", "1 million dollars")
-   - "Free money" offers with character substitutions (e.g., "fr33 m0n3y")
-   - Stock alert scams with leet speak variations
-   - "Dear friend" opening lines with number substitutions
-   - Urgent help requests and assistance pleas
+### Basic Detection:
+- Type or paste any message into the text area
+- Click **"🔍 Analyze"** or press **Enter** to check for spam
+- View the results with detailed pattern detection
 
-2. **🎨 Compact Modern Design**
-   - Single-page layout with no scrolling required
-   - Dark theme with gradient accents
-   - Smooth animations and hover effects
-   - Professional card-based interface
-   - Custom styled scrollbars matching the theme
-
-3. **⚡ Real-time Analysis**
-   - Instant spam detection with visual feedback
-   - Character count display
-   - Detailed pattern breakdown
-   - Clear and reset functionality
-   - Keyboard shortcut support (Enter to analyze)
-
-4. **📱 Fully Responsive**
-   - Optimized for desktop and mobile devices
-   - Flexible grid layouts
-   - Touch-friendly interface
-   - Cross-browser compatibility
+### Test Messages:
+- **Spam Example**: "Dear friend, I have 1 million dollars for you! fr33 m0n3y waiting!"
+- **Safe Example**: "Hello, can we schedule a meeting tomorrow?"
+- **Mixed Example**: "Please help me with this stock alert for $100"
 
 ---
+
 
 ## 🧩 Project Files
 
@@ -84,33 +68,6 @@ Just open `index.html` in your favorite browser 🌐 and start playing!
 
 ---
 
-## 🎮 How to Use
-
-### Basic Detection:
-- Type or paste any message into the text area
-- Click **"🔍 Analyze"** or press **Enter** to check for spam
-- View the results with detailed pattern detection
-
-### Test Messages:
-- **Spam Example**: "Dear friend, I have 1 million dollars for you! fr33 m0n3y waiting!"
-- **Safe Example**: "Hello, can we schedule a meeting tomorrow?"
-- **Mixed Example**: "Please help me with this stock alert for $100"
-
----
-
-## 🛠️ Technical Features
-
-- **Regular Expressions** for sophisticated pattern matching
-- **DOM Manipulation** for dynamic content updates
-- **Event Handling** for interactive functionality
-- **CSS Grid & Flexbox** for responsive layouts
-- **CSS Custom Properties** for consistent theming
-- **Custom Scrollbar Styling** for enhanced UX
-- **Smooth Transitions** and hover effects
-- **Input Validation** and character counting
-
----
-
 ## 🎯 Key JavaScript Concepts
 
 - **Regular Expressions**: Advanced pattern matching with character classes
@@ -119,18 +76,6 @@ Just open `index.html` in your favorite browser 🌐 and start playing!
 - **DOM Manipulation**: Dynamic content updates and styling
 - **Object-Oriented Design**: Organized pattern configuration
 - **Asynchronous Processing**: Simulated analysis delays for better UX
-
----
-
-## 📱 Responsive Design
-
-The compact design works flawlessly on:
-
-- **Desktop computers** (1200px+)
-- **Laptops** (992px - 1199px)
-- **Tablets** (768px - 991px)
-- **Mobile phones** (480px - 767px)
-- **Small mobile devices** (below 480px)
 
 ---
 
