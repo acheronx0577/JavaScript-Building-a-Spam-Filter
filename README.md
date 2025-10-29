@@ -38,19 +38,6 @@ Live Demo: https://acheronx0577.github.io/JavaScript-Building-a-Spam-Filter
 - **Safe Example**: "Hello, can we schedule a meeting tomorrow?"
 - **Mixed Example**: "Please help me with this stock alert for $100"
 
----
-
-
-## 🧩 Project Files
-
-| File | Description |
-|------|-------------|
-| `index.html` | Compact single-page application structure |
-| `script.js` | Spam detection logic with regex patterns ⚙️ |
-| `styles.css` | Dark theme styling with smooth animations 🎨 |
-
----
-
 ## 🧰 Installation & Usage
 
 ### 1️⃣ Clone this repo
@@ -58,12 +45,7 @@ Live Demo: https://acheronx0577.github.io/JavaScript-Building-a-Spam-Filter
 git clone git@github.com:acheronx0577/JavaScript-Building-a-Spam-Filter.git
 ```
 
-### 2️⃣ Open the project folder
-```
-cd JavaScript-Building-a-Spam-Filter
-```
-
-### 3️⃣ Run the file
+### 2️⃣ Run the file
 Just open `index.html` in your favorite browser 🌐 and start playing!
 
 ---
