@@ -61,19 +61,6 @@ Just open `index.html` in your favorite browser 🌐 and start playing!
 
 ---
 
-## 🎨 Color Scheme
-
-- **Primary Background**: Dark Blue Gradient (#1b1b32 to #2a2a4a)
-- **Header Gradient**: Gold Gradient (#fecc4c to #ffac33)
-- **Card Background**: Dark Purple (#2d2d5a)
-- **Success State**: Green Accent (#4CAF50)
-- **Warning State**: Red Accent (#f44336)
-- **Info State**: Blue Accent (#2196F3)
-- **Text Primary**: White (#ffffff)
-- **Text Secondary**: Semi-transparent White (rgba(255, 255, 255, 0.8))
-
----
-
 ## 🤝 Contributing
 
 Interested in improving this spam detector?  
