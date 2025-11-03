@@ -38,6 +38,8 @@ Live Demo: https://acheronx0577.github.io/JavaScript-Building-a-Spam-Filter
 - **Safe Example**: "Hello, can we schedule a meeting tomorrow?"
 - **Mixed Example**: "Please help me with this stock alert for $100"
 
+---
+
 ## 🧰 Installation & Usage
 
 ### 1️⃣ Clone this repo
