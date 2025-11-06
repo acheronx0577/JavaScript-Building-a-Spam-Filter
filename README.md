@@ -20,7 +20,7 @@ This repository contains the complete portfolio of projects needed to demonstrat
 
 ## 📸 Application Preview
 
-<img width="715" height="809" alt="Screenshot 2025-10-27 141740" src="https://github.com/user-attachments/assets/97262308-2771-4254-84b6-a63ad5c42ce5" />
+<img width="964" height="1078" alt="image" src="https://github.com/user-attachments/assets/2d5272d3-bb3b-42ff-b936-cedf6c516de2" />
 
 Live Demo: https://acheronx0577.github.io/JavaScript-Building-a-Spam-Filter
 
