@@ -1,77 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles.css" />
     <link rel="icon" type="image/png" href="https://cdn.freecodecamp.org/universal/favicons/favicon.ico" />
-    <title>Spam Detector - Protect Your Inbox</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>SPAM_DETECTOR</title>
   </head>
-
   <body>
-    <div class="compact-container">
-      <header class="compact-header">
-        <h1 class="compact-title">🛡️ Spam Detector</h1>
-        <p class="compact-description">
-          Check messages for spam patterns instantly
-        </p>
+    <div class="terminal">
+      <header class="terminal-header">
+        <div class="window-controls">
+          <span class="control close"></span>
+          <span class="control minimize"></span>
+          <span class="control maximize"></span>
+        </div>
+        <div class="title-bar">
+          <span class="prompt">></span>
+          <span class="title">SPAM_DETECTOR</span>
+          <span class="cursor">_</span>
+        </div>
       </header>
 
-      <main class="compact-main">
-        <div class="input-card">
-          <label class="compact-label" for="message-input">
-            <span>Message to analyze:</span>
-            <span class="char-count" id="char-count">0 chars</span>
-          </label>
-          <textarea
-            placeholder="Paste or type your message here..."
-            value=""
-            type="text"
-            name="message"
-            id="message-input"
-            rows="4"
-          ></textarea>
-          
-          <div class="compact-buttons">
-            <button class="btn btn-primary" id="check-message-btn" type="button">
-              🔍 Analyze
+      <main class="terminal-body">
+        <div class="app-header">
+          <h1 class="app-title">~/security/spam_detector</h1>
+          <div class="status-bar">
+            <span class="status-item">READY</span>
+            <span class="status-item">v1.0.0</span>
+            <span class="status-item">UTF-8</span>
+          </div>
+        </div>
+
+        <div class="input-section">
+          <div class="input-group">
+            <label for="message-input" class="input-label">
+              <span class="label-text">MESSAGE_INPUT</span>
+              <span class="label-desc">[text_analysis]</span>
+            </label>
+            <textarea
+              id="message-input"
+              class="terminal-input"
+              placeholder="Paste or type your message here..."
+              rows="4"
+            ></textarea>
+            <div class="char-count" id="char-count">0 characters</div>
+          </div>
+
+          <div class="button-group">
+            <button id="check-message-btn" class="terminal-btn primary">
+              <span class="btn-text">[ANALYZE_MESSAGE]</span>
             </button>
-            <button class="btn btn-secondary" id="clear-btn" type="button">
-              🗑️ Clear
+            <button id="clear-btn" class="terminal-btn secondary">
+              <span class="btn-text">[CLEAR_INPUT]</span>
             </button>
           </div>
         </div>
 
-        <div class="result-card" id="result-card">
-          <div class="result-header">
-            <div class="result-icon" id="result-icon">⏳</div>
-            <h3 class="result-title" id="result-title">Ready to Analyze</h3>
+        <div id="output" class="output-panel">
+          <div class="output-header">
+            <span class="output-title">ANALYSIS_RESULT</span>
+            <span class="output-status" id="result-status">READY</span>
           </div>
-          <p class="result-message" id="result-message">
-            Enter a message above to check for spam patterns.
-          </p>
-          <div class="result-details" id="result-details">
-            <div class="patterns-found" id="patterns-found"></div>
+          <div class="output-content">
+            <div class="result-header">
+              <span class="result-icon" id="result-icon">⏳</span>
+              <span class="result-title" id="result-title">READY_FOR_ANALYSIS</span>
+            </div>
+            <div class="result-message" id="result-message">
+              Enter a message above to check for spam patterns.
+            </div>
+            <div class="result-details" id="result-details">
+              <div class="patterns-found" id="patterns-found"></div>
+            </div>
           </div>
         </div>
 
-        <div class="info-card">
-          <h4>📋 Detection Patterns</h4>
-          <div class="pattern-grid">
-            <span class="pattern-tag">💰 Money amounts</span>
-            <span class="pattern-tag">🎁 Free offers</span>
-            <span class="pattern-tag">📈 Stock alerts</span>
-            <span class="pattern-tag">👋 Dear friend</span>
-            <span class="pattern-tag">🆘 Urgent help</span>
+        <div class="info-panel">
+          <div class="info-header">
+            <span class="info-title">DETECTION_PATTERNS</span>
+            <span class="info-badge">5_PATTERNS</span>
+          </div>
+          <div class="info-content">
+            <div class="pattern-grid">
+              <span class="pattern-tag">💰 MONEY_AMOUNTS</span>
+              <span class="pattern-tag">🎁 FREE_OFFERS</span>
+              <span class="pattern-tag">📈 STOCK_ALERTS</span>
+              <span class="pattern-tag">👋 DEAR_FRIEND</span>
+              <span class="pattern-tag">🆘 URGENT_HELP</span>
+            </div>
           </div>
         </div>
       </main>
 
-      <footer class="compact-footer">
-        <p>© 2024 Spam Detector | Built with ❤️ through freeCodeCamp</p>
+      <footer class="terminal-footer">
+        <div class="footer-stats">
+          <span class="stat">STATUS: <span id="global-status">READY</span></span>
+          <span class="stat">PATTERNS: 5</span>
+          <span class="stat">MESSAGE_LENGTH: <span id="message-length">0</span></span>
+        </div>
       </footer>
     </div>
     <script src="./script.js"></script>
   </body>
-
 </html>
